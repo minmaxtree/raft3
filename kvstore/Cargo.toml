@@ -1,0 +1,11 @@
+[package]
+name = "kvstore"
+version = "0.1.0"
+authors = ["minmaxtree <minmaxtree@gmail.com>"]
+
+[dependencies]
+raft3 = { path = ".." }
+serde = "*"
+serde_json = "*"
+serde_derive = "*"
+rustyline = "*"

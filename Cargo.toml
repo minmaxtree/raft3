@@ -1,0 +1,11 @@
+[package]
+name = "raft3"
+version = "0.1.0"
+authors = ["minmaxtree <minmaxtree@gmail.com>"]
+
+[dependencies]
+mio = "*"
+rand = "*"
+serde = "*"
+serde_json = "*"
+serde_derive = "*"
